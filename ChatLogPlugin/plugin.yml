@@ -1,0 +1,15 @@
+name: CybersChatLog
+main: com.Cyber.ChatLogPlugin.ChatLogPlugin
+version: 1.2
+api-version: 1.13
+commands:
+   BnH:
+      description: Boats n' Hoes.
+      usage: /BnH
+   Kachow:
+      description: KACHOW.
+      usage: /Kachow
+permissions:
+   chatLog.log:
+      description: Logs the player.
+      default: false
